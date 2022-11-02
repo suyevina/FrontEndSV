@@ -1,0 +1,15 @@
+/******* clases generales*****/
+
+/******** header *************/
+.head {
+  background-color: black;
+  color: white;
+  font-size: smaller;
+}
+/********* nav menu **********/
+
+/******* main content ********/
+.fondoPrincipal {
+  background-image: url(../img/background1.png);
+}
+/*  */shift+alt+A
