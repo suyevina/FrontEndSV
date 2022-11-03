@@ -1,0 +1,108 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+body {
+  margin: 2;
+  height: 700px;
+}
+.banner{
+  background-image: url("../img/cv/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.fotoCV {
+  width: 150px;
+  height: 150px;
+  padding: 0px;
+
+}
+.more {
+  font-size: 20px;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 800;
+  -webkit-text-stroke: 1px #fff;
+  color: #005677;
+}
+
+.titulo {
+  background-color: #c4c4c4;
+  font-family: "Alegreya Sans", sans-serif;
+  color: #005677;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 35px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+.subtitulo {
+  background-color: #c4c4c4;
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: left;
+  color: #005677;
+  font-weight: 700;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-left: 5px;
+}
+.contenido {
+  font-size: 15px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.forma {
+  display: grid;
+  gap: 0px 5px;
+  grid-template-columns: max-content max-content;
+  padding-left: 10px;
+}
+.forma2 {
+  display: grid;
+  gap: 0px 5px;
+  grid-template-columns: max-content max-content;
+  padding-left: 10px;
+  margin-bottom: 200px;
+}
+.forma3 {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  margin-bottom: 200px;
+}
+.dato {
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.margenLi {
+  margin: 10px;
+}
+.fondoPie {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  background-color: #005677;
+  justify-content: center;
+  align-items: center;
+}
+.pie {
+  font-weight: bold;
+  color: white;
+  font-size: 30px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,15 @@
+@font-face {
+  font-family: miFuente;
+  src: url(../fonts/Thesignature.ttf);
+}
+body {
+  background-image: url(/img/churrasquito.png);
+  background-size: cover;
+}
+h1 {
+  font-family: miFuente;
+}
+i {
+  font-size: 2rem;
+  color: blueviolet;
+}
