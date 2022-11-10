@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,100&display=swap");
 /* General */
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   margin: 0px;
-  width: 1024px;
+  width: auto;
 }
 button {
   color: #fff;
@@ -41,10 +44,13 @@ h2 {
 }
 
 header {
+  margin: 0px;
   position: absolute;
   width: 1024px;
 }
-
+/* .target{
+  position: absolute;
+} */
 /* encabezado cyan*/
 .fondoCyan {
   background-color: #1cd1b0;
@@ -81,7 +87,7 @@ header {
 .fa-heart {
   color: #cc2424;
   font-size: 26px;
-  bottom: -42px;
+  bottom: -30px;
   right: -21px;
   position: relative;
   z-index: 555;

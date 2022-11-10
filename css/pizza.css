@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+span {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* menu */
+.menu {
+  list-style-type: none;
+  padding: 13px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.menuHeader {
+  display: flex;
+  flex-direction: row;
+}
+/***** main *****/
+/* delivery */
+.listadoPizza {
+  display: flex;
+  flex-direction: row;
+}
+.txtPizzas {
+  color: #fc200c;
+  font-size: 24px;
+  font-weight: 700;
+}
+/* podio */
+.tipos {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* footer */
+.logoFooter {
+  padding-top: 60px;
+}
