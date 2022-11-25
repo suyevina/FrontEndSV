@@ -1,0 +1,170 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fuenteHeroes;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+  }
+body{
+    font-family: fuenteHeroes;
+    width: 1440px;
+}
+footer{
+    text-align: center;
+    height: 61px;
+}
+h1{
+    padding: 27px 0px 18px 20px ;
+    font-size: 30px;
+}
+h2{
+    text-transform: uppercase;
+}
+i{
+    color: #CC2424;
+    font-size: 2rem ;
+    z-index: 99999;
+}
+li{
+    padding: 11px 10px 10px 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+.barra1{
+    background-color: #1CD1B0;
+    font-size: 15px;
+}
+.textBarra1{
+    padding: 2px 0px 3px 20px;
+}
+
+.barra2{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}
+.logo{
+    padding: 3px 0px 3px 10px;
+}
+
+.barra3{
+    background-color:#001D2D;
+}
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+/************ central ***********/
+.fondo{
+    border-radius: 8%;
+    width: 18.75rem;
+    height: 12.06rem;
+    z-index: 9;
+}
+.descripcionHeroe{
+    width: 18.75rem;
+    height: 22rem ;
+    background-color: #F3F3F3;
+    padding: 129px 17px 94px 16px;
+    position: relative;
+    right: -36px;
+    top: -185px;
+    z-index: 99;
+}
+.heart0{
+    position: relative;
+    left: -160px;
+    top: -140px;
+}
+.globo{
+    width: 7.5rem;
+    border-radius: 50%;
+    position: relative;
+    left: 115px;
+    top: -70px;
+    z-index: 9999;
+}
+.titulo{
+    text-transform: capitalize;
+    font-size: 35px;
+    position: relative;
+    z-index: 999;
+}
+.boton{    
+    background-color: #00669F;
+    border: none;
+    color: white;
+    font-size: 18px;
+    height: 3.06rem;
+    position: relative;
+    width: 8.06rem;
+    top: -260px;
+    right: -120px;
+    z-index: 99;
+}
+.tarjeta i{
+    position: relative;
+    left: 60px;
+    top: -140px;
+} 
+ 
+.tarjeta h2{
+    left: 110px;
+    top: -65px;
+    font-size: 35px;
+    position: relative;
+    z-index: 999;
+}
+.tarjeta1 h2{
+    left: 110px;
+    top: 50px;
+    text-transform: capitalize;
+}
+.conjunto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 104px;
+}
+/******************/
+.plus{
+    font-size: 3.90rem;
+    color: white;
+    background-color: #00669F;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus:hover{
+    background-color: white;
+    color: #00669F;
+    font-weight: 800;
+    padding: 0.5rem;
+    border: 3px solid #00669F ;
+    cursor:pointer;
+}
+.pie{
+    background-color: #00669F;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}

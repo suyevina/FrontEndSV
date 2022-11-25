@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    
+}
+p{
+    padding: 10px;
+}
+h1:hover{
+    background-color: pink;
+}
+section.menu-nav{
+    background-color: orange;
+    width: 100vh;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+}
+a:hover{
+    background-color: aliceblue;
+    color: orange;
+    font-weight: 800;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor:pointer;
+}
+p:first-child{
+    color: red;
+    font-weight: 600;
+}
+p:nth-child(3){
+    color: aquamarine;
+    font-weight: 700;
+}
+p::before{
+    content: "Soy un ";
+    color:coral;
+}
+p::after{
+    content: "\1F494";
+}

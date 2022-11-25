@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+}
+input[type="text"]:focus{
+    border: 5px solid greenyellow;
+
+}
+input[type="email"]:invalid{
+    border: 5px solid salmon;
+}
