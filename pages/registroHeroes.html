@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro Heroes</title>
+    <link rel="stylesheet" href="../css/anadir.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -15,6 +18,70 @@
             <img class="logo" src="../img/cardheroes/LogoTienda.png" alt="LogoTienda">
             <H1>Suyevina Store</H1>
         </section>
+        <section class="barra3">
+            <nav class="containerMenu">
+                <ul class="menu">
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </nav>
+        </section>
     </header>
+    <form aaction="#" autocomplete="off" >
+        <fieldset>
+            <h2>Añadir tu super!</h2>
+            <p class="subti">Agregá tu personaje favorito completando las opciones.</p>
+            <div class="datos">
+                <div>
+                    <label for="name">*Nombre</label>
+                    <br>
+                    <input type="text" id="name" name="username" placeholder="Nombre" required>
+                </div>
+                <div>
+                    <label for="spicy">Especie</label>
+                    <br>
+                    <select name="" id="spicy" required>
+                        <option value=""></option>
+                    </select>
+                </div>
+            </div>
+            <div class="datos">
+                <div>
+                    <label for="calendar">Fecha</label>
+                    <br>
+                    <input type="date" name="calendario" id="calendar">
+                </div>
+                <div>
+                    <label for="upload">Agregar Foto</label>
+                    <br>
+                    <input type="file" name="Cargador" id="upload">
+                </div>
+            </div>
+            <div class="datos">
+                <div>
+                    <label for="description"></label>
+                    <textarea name="" id="description" cols="30" rows="10" placeholder="Descripción"></textarea>
+                </div>
+                <div>
+                    <div>
+                        <label for="poderes">Poderes
+                        <input type="checkbox" name="poder" id="poderes">
+                        <input type="checkbox" name="poder" id="poderes">
+                        <input type="checkbox" name="poder" id="poderes">
+                        <input type="checkbox" name="poder" id="poderes"></label>
+                    </div>
+                    <hr>
+                    <div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </fieldset>
+    </form>
+    <footer>
+        <p class="pie">Todos los derechos reservados a FRONT END 1</p>
+    </footer>
 </body>
 </html>

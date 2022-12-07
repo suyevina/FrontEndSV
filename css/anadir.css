@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: fuenteHeroes;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 1440px;
+}
+i{
+    color: #CC2424;
+    font-size: 2rem ;
+    z-index: 99999;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    border-style: none;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    height: 63px;
+    padding: 15px;
+    width: 343px;
+}
+select{
+    border-radius: 10px;
+    border: none;
+    border-style: none;
+    font-size: 18px ;
+    height: 63px;
+    padding: 15px;
+    width: 343px;
+}
+label{
+    font-size:20px ;
+}
+h1{
+    padding: 27px 0px 18px 20px ;
+    font-size: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+li{
+    padding: 11px 10px 10px 10px;
+}
+fieldset{
+    background-color: #00669F;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border: 0px;
+    width: 954px;
+    /*height: 832px;*/
+}
+form{
+    padding: 40px 243px;
+}
+ul{
+    list-style-type: none;
+}
+
+/*********************  ENCABEZADO  ********************************/
+.barra1{
+    background-color: #1CD1B0;
+    font-size: 15px;
+    font-family: fuenteHeroes;
+}
+.textBarra1{
+    padding: 2px 0px 3px 20px;
+}
+
+.barra2{
+    background-color: #00669F;
+    color: white;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    font-family: fuenteHeroes;
+}
+.logo{
+    padding: 3px 0px 3px 10px;
+}
+
+.barra3{
+    background-color:#001D2D;
+}
+.containerMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: fuenteHeroes;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+/*******************   FORMULARIO **********************************/
+.subti{
+    text-align: center;
+    padding-bottom: 14px;
+}
+.datos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content:space-around ;
+
+}
+/*******************  PIE DE PAGINA**********************************/
+.pie{
+    background-color: #00669F;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: fuenteHeroes;
+    font-weight: 400;
+}
