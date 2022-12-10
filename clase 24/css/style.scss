@@ -1,0 +1,102 @@
+$bg-yelow: #F0A83E;
+$bg-black: black;
+$bg-browm:#3C2313;
+$bg-btn: #8A8787;
+$cl-tit:#fff;
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+    header{
+        align-items: center;
+        background-color: $bg-black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 60px;
+        p{
+           font-size: 10px; 
+           color: $cl-tit;
+        }
+        div{
+            select{
+                margin: 10px;
+                border: none;
+                background: transparent;
+                color: $cl-tit;
+                option{
+                    font-size: 10px;
+                }          
+            }
+        }
+    }
+    main{
+        .blq-nav{            
+            align-items: center;
+            background-color: $bg-yelow;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+            img{
+                padding: 40px;
+            }
+            nav{
+                ul{
+                    display: flex;
+                    flex-direction: row;
+                    li{
+                        list-style: none;
+                        a{
+                            color: $cl-tit;
+                            font-weight: 700;
+                            text-decoration: none;
+                            padding: 40px;                            
+                        }
+                    }
+                }
+            }
+        }
+        .blq-ppal{
+            align-items: flex-end;
+            background-image: url("../img/fondo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;            
+            justify-content: center;
+            height: 409px;
+            width: auto;
+            .tit{
+                background-color: $cl-tit;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 35px;
+                padding: 10px;
+                margin-right: 10px;                
+                width: fit-content;
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                margin-right: 95px; 
+                margin-top: 22px; 
+            }
+            button{
+                background-color: $bg-yelow;
+                border: none;
+                border-radius: 5px;
+                color: $cl-tit;
+                font-size: 16px;
+                padding: 15px 23px;
+                margin-right: 127px;
+                margin-top: 12px;
+                width: 141px;
+            }
+        }
+    }
+}

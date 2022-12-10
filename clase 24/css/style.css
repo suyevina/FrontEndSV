@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+body header {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 60px;
+}
+body header p {
+  font-size: 10px;
+  color: #fff;
+}
+body header div select {
+  margin: 10px;
+  border: none;
+  background: transparent;
+  color: #fff;
+}
+body header div select option {
+  font-size: 10px;
+}
+body main .blq-nav {
+  align-items: center;
+  background-color: #F0A83E;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .blq-nav img {
+  padding: 40px;
+}
+body main .blq-nav nav ul {
+  display: flex;
+  flex-direction: row;
+}
+body main .blq-nav nav ul li {
+  list-style: none;
+}
+body main .blq-nav nav ul li a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 40px;
+}
+body main .blq-ppal {
+  align-items: flex-end;
+  background-image: url("../img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 409px;
+  width: auto;
+}
+body main .blq-ppal .tit {
+  background-color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 10px;
+  margin-right: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+body main .blq-ppal p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 95px;
+  margin-top: 22px;
+}
+body main .blq-ppal button {
+  background-color: #F0A83E;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 15px 23px;
+  margin-right: 127px;
+  margin-top: 12px;
+  width: 141px;
+}/*# sourceMappingURL=style.css.map */
